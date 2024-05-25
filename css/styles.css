@@ -11059,8 +11059,7 @@ p {
 }
 .form-container .formC:nth-child(1) {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     --gap: 1rem;
 }
 .formC .Fcontrol {
