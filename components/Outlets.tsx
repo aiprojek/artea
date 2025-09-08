@@ -9,7 +9,6 @@ const outlets = [
   {
     name: 'Artea Sumpiuh',
     address: 'Jl. Pemotongan Pasar No.I, RT.04/RW.01, Barat Pasar, Sumpiuh, Kec. Sumpiuh, Kabupaten Banyumas, Jawa Tengah 53195',
-    contactName: 'Abu Aya Akhrid',
     contactNumber: '6281225879494',
     image: '/images/outlet-sumpiuh.jpg',
     mapLink: 'https://maps.app.goo.gl/hJdywPBpkNksKMjL7'
@@ -17,7 +16,6 @@ const outlets = [
   {
     name: 'Artea Karangwangkal',
     address: 'Gg. Gn. Cermai No.35, RT.2/RW.2, Karangwangkal, Kec. Purwokerto Utara, Kabupaten Banyumas, Jawa Tengah 53123',
-    contactName: 'Shofi',
     contactNumber: '6285727753309',
     image: '/images/outlet-karangwangkal.jpg',
     mapLink: 'https://maps.app.goo.gl/vuPKivcKBAYUHz6MA'
@@ -58,7 +56,7 @@ const Outlets: React.FC = () => {
                   className="text-gray-700 inline-flex items-center hover:text-artea-green transition-colors duration-200"
                 >
                     <ContactIcon />
-                    <span>Kontak: {outlet.contactName}</span>
+                    <span>Informasi (klik di sini)</span>
                 </a>
                 <div className="mt-auto pt-6">
                     <a 

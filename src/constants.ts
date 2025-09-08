@@ -75,10 +75,10 @@ export const MENU_DATA: MenuCategory[] = [
     image: '/images/menu-mojito-series.jpg',
     items: [
       { name: 'Mojito Jeruk' },
-      { name: 'Mojito Markisa', isBestSeller: true  },
+      { name: 'Mojito Markisa', isBestSeller: true },
       { name: 'Mojito Mangga' },
       { name: 'Mojito Kiwi' },
-      { name: 'Mojito Blue Ocean', isBestSeller: true  },
+      { name: 'Mojito Blue Ocean', isBestSeller: true },
     ],
   },
 ];
