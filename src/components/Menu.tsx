@@ -17,7 +17,7 @@ const ChevronRightIcon: React.FC = () => (
 
 const CategoryCard: React.FC<{ category: MenuCategory }> = ({ category }) => (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 flex flex-col h-full">
-        <img className="w-full h-48 object-cover" src={category.image} alt={category.name} />
+        <img className="w-full aspect-square object-cover" src={category.image} alt={category.name} />
         <div className="p-4 flex flex-col flex-grow">
             <h4 className="text-xl font-semibold text-artea-dark">{category.name}</h4>
             <p className="text-gray-600 mt-1 text-sm flex-grow">{category.description}</p>
@@ -146,6 +146,7 @@ const Menu: React.FC = () => {
                         {MENU_DATA.map((category) => (
                             <div 
                                 key={category.name}
+                                // FIX: A ref callback must not return a value. Wrapped the assignment in braces to ensure a void return.
                                 ref={el => { itemRefs.current[category.name] = el; }}
                                 className="flex-shrink-0 w-11/12 sm:w-80 md:w-96"
                                 id={`category-${category.name.replace(/\s+/g, '-')}`}

@@ -40,7 +40,7 @@ const About: React.FC = () => {
                 </div>
                 <div className="md:w-3/5 text-artea-dark space-y-4">
                     <h3 className="text-3xl font-bold text-artea-dark leading-tight">
-                        Kebahagiaan dalam Setiap Cangkir.
+                        Kualitas & Passion dalam Setiap Cangkir.
                     </h3>
                     <p className="text-xl text-gray-700">
                         <strong>Artea</strong> lahir dari kecintaan kami terhadap teh dan kopi. Kami percaya bahwa setiap cangkir memiliki cerita dan setiap tegukan dapat membawa kebahagiaan.
